@@ -3,7 +3,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 
 unsigned long previousMillis2 = 0;
 unsigned long interval2 = 1000; 
-int count2 = 0;
+unsigned long count2 = 0;
 
 int taskIndex  = 0; 
 int taskIndex1 = 0; 
